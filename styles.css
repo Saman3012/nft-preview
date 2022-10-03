@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerout{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.container{
+    background-color: #0C192C;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding:30px 20px 30px 20px;
+    align-self: center;
+}
+.containerin{
+    background-color: #15273F;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.heading{
+    color: white;
+    padding-left: 12%;
+}
+.des{
+    color: grey;
+    padding-left: 12%;
+    font-size: 14px;
+    letter-spacing: 1.5;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.rate{
+    display: flex;
+    padding-left: 12%;
+    align-items: center;
+}
+.rate img{
+    height: 15px;
+    padding-right: 4px;
+}
+.rate h4{
+    color: aqua;
+}
+.days{
+    display: flex;
+    padding-right: 11%;
+    align-items: center;
+}
+.days img{
+    padding-right: 2px;
+}
+.days p{
+    color: grey;
+    font-size: 12px;
+}
+.line{
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.349);
+    width: 85%;
+    align-self: center;
+    border-radius: 4px;
+}
+.prof{
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon img{
+    height: 32px;
+}
+.icon{
+    height: 32px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+}
+.info p{
+    color: grey;
+}
+.info .name{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.heading h4:hover,.name:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+/* -----------------blur effect css--------------- */
+.pic{
+    align-self: center;
+    align-items: center;
+    padding-top: 5%;
+    display: grid; 
+}
+.pic img{
+    height: 350px;
+    width: 350px;
+    align-self: center;
+    border-radius: 15px;
+}
+.layer{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    background-color:aqua;
+    opacity: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.layer img{
+    width: 32px;
+    height: 32px;
+    margin-top: 172px;
+}
+.picim{
+    grid-area:1/1 ;
+}
+.layer:hover{
+    opacity: 0.5;
+}
